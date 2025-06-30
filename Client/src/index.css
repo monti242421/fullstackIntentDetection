@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+.searchbutton {
+  width: 100%;
+  background-color: rgb(253, 248, 248) !important;
+  border-color: rgb(245, 241, 241) !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+.searchbuttoncontainer {
+  width: 70px !important;
+  padding-right: 0 !important;
+}
+.searchbarinput {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  background-color: rgb(255, 255, 255) !important;
+  border-color: rgb(245, 241, 241) !important;
+}
+.searchbarcontainer {
+  padding-left: 0 !important;
+  margin: 0;
+}
+.containercover {
+  margin-top: 10px;
+  padding-top: 0px !important;
+  box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
+  border-radius: 6px;
+  padding: 1rem;
+  background-color: white;
+}
+.overallContainer {
+  margin: 0px;
+  background-color: #f5fff8;
+  height: 2000px;
+  padding-top: 20px;
+  padding-left: 10px;
+  position: fixed;
+  width: 320px;
+  left: 0;
+}
+.examplesquery {
+  margin: 0%;
+  padding: 0%;
+  font-size: 12px !important;
+}
+.featureproductscontainer {
+  width: 100%;
+  margin: 0px auto;
+}
+.productscontainer {
+  width: 100%;
+  margin: 0px auto;
+  min-height: 1000px;
+}
+
+.productcontainer {
+  margin: 30px;
+  min-width: 200px;
+  border: none !important;
+}
+
+.addToWishList {
+  margin: 20px;
+  border: none;
+  background-color: transparent;
+}
+.addToCart {
+  width: auto;
+}
+
+.logo h1 {
+  color: black;
+  font-size: 50px;
+  font-weight: 700;
+  padding: 0px;
+}
+.logo a {
+  text-decoration: none;
+}
+.homecontent {
+  margin-top: 5px;
+  height: 300px;
+  margin-bottom: 20px;
+  background-position: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.homecontent h1 {
+  font-weight: 500 !important;
+  font-size: 60px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.homecontent h5 {
+  margin-bottom: 20px;
+}
+.hometext {
+  margin-left: 60px;
+}
+
+.homebox {
+  align-items: center;
+  width: 500px;
+}
+.homeimage {
+  background-image: url("../public/watch.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  padding: 100px 0px;
+}
+
+.cart {
+  width: 1000px;
+}
+.cartitem {
+  border: 1px solid rgb(206, 202, 202);
+  position: relative;
+  width: 95%;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 10px;
+}
+.cartItems {
+  width: 600px;
+  display: inline-block;
+  vertical-align: top;
+}
+.cartSummary {
+  display: inline-block;
+  vertical-align: top;
+  width: 400px;
+  padding: 20px;
+}
+.cartitemdetails {
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px;
+}
+.deleteCartItem {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.navlink {
+  padding: 8px 12px;
+  text-decoration: none;
+  position: relative;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 30px;
+  margin-right: 30px;
+  transition: background-color 0.1s;
+}
+.navlink:hover {
+  background-color: rgb(240, 240, 240);
+}
+
+.navlink.activetab::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  height: 3px;
+  background-color: blue;
+  width: 100%;
+}
+.navlinkicon {
+  padding: 0px 12px;
+  position: relative;
+  margin-right: 20px;
+  display: inline-block;
+  transition: transform 0.1s;
+}
+.navlinkicon:hover {
+  transform: scale(1.25);
+}
+
+.navlinkicon.activetabicon::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0px;
+  height: 3px;
+  background-color: blue;
+  width: 100%;
+}
+.headergrid {
+  display: grid;
+  align-items: end;
+  grid-template-columns: 320px 700px 300px;
+  border-bottom: 1px solid lightgrey;
+}
+.headergrid > div {
+  padding-bottom: 5px;
+}
+.NavlinksIcons {
+  margin-left: 60px;
+}
+.iconbadge {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.topheader {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  z-index: 1000;
+}
+
+.bodygrid {
+  display: grid;
+  grid-template-columns: 320px 1000px;
+  height: 1800px;
+}
+.signincontainer {
+  margin-left: 25%;
+  width: 50%;
+  padding: 20px 100px;
+}
+
+.userButton {
+  position: relative;
+}
+.logoutButton {
+  position: absolute;
+  bottom: -40px;
+  left: 0px;
+}
+.queries {
+  margin: 5px;
+  padding: 2px;
+  border: none;
+  transition: background-color 0.3s, transform 0.2s !important;
+}
+.queries:hover {
+  background-color: rgb(64, 243, 243) !important;
+  transform: scale(1.05);
+}
+.filters {
+  margin: 20px;
+}
+.filters span {
+  margin-left: 10px;
+}
+
+.card-title {
+  text-transform: capitalize;
+  overflow: hidden;
+  white-space: nowrap;
+  font-weight: 700;
+}
+.card-text {
+  text-transform: capitalize;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.card-category {
+  font-size: smaller;
+  font-weight: 600;
+  text-transform: capitalize;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.price {
+  height: 30px;
+}
+.paginationtop {
+  margin-left: 30px;
+  margin-top: 40px;
+}
+.paginationbottum {
+  margin-left: 30px;
+  margin-top: 0px;
+}
+
+.card-img-top {
+  height: 250px;
+  object-fit: cover;
+}
+
+.loginelements {
+  margin-top: 10px;
+}

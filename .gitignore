@@ -1,0 +1,10 @@
+Server/node_modules/
+Client/node_modules/
+
+Client/dist/
+
+Client/.env
+Client/.env.production
+Server/.env
+Server/app.yaml
+tidb_idpassword.txts
